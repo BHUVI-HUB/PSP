@@ -1,0 +1,5 @@
+f=open("snowwolf.txt","a+")
+f.write("how are you doing")
+f=open("snowwolf.txt","r")
+contents=f.read()
+print(contents)

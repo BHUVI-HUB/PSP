@@ -1,0 +1,5 @@
+f=open("python.txt","w")
+f.write("I am studying in gitam clg")
+f=open("python.txt","r")
+contents=f.read()
+print(contents)

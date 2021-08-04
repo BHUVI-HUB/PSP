@@ -1,0 +1,5 @@
+f=open("hello.txt","w")
+f.write("hi this is bhuvi")
+f=open("hello.txt","r")
+contents=f.read()
+print(contents)

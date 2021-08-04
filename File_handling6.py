@@ -1,0 +1,5 @@
+f=open("python.txt","a+")
+f.write("hi this is bhuvi")
+f=open("python.txt","r")
+contents=f.read()
+print(contents)
